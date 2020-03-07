@@ -14,7 +14,7 @@ func TestNew(t *testing.T) {
 	} else {
 		tracer.Trace("Trace package under test.")
 		if buf.String() != "Trace package under test.\n" {
-			t.Errorf("Method Trace sould not print '%s'.", buf.String())
+			t.Errorf("Method Trace should not print '%s'.", buf.String())
 		}
 	}
 }
